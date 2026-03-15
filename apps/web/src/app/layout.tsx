@@ -4,6 +4,11 @@ import './globals.css';
 export const metadata: Metadata = {
   title: 'E2EE Messenger',
   description: 'End-to-end encrypted peer-to-peer messaging',
+  openGraph: {
+    title: 'E2EE Messenger',
+    description: 'End-to-end encrypted peer-to-peer messaging with X3DH key exchange, Double Ratchet protocol, and WebAuthn vault.',
+    type: 'website',
+  },
 };
 
 export default function RootLayout({
