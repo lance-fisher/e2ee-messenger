@@ -9,3 +9,6 @@ data/
 *.log
 coverage/
 .turbo/
+
+# Claude Code
+.claude/
