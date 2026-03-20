@@ -12,3 +12,7 @@ coverage/
 
 # Claude Code
 .claude/
+
+# Standard entries
+__pycache__/
+*.pid
